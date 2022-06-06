@@ -20,6 +20,15 @@ a.anchor {
     font-size: 4.5rem;
 }
 
+.about-container > hr {
+    margin: 10px auto;
+    width: 10%;
+    height: 6px;
+    border-width: 0;
+    background-color: rgba(33, 158, 188, 1);
+    align: center;
+}
+
 .about-content {
     display: grid;
     line-height: 1.6;
@@ -70,6 +79,10 @@ h1, h2, h3 {
     .about-content {
         margin-top: 30px;
         grid-template-columns: 1fr;
+    }
+
+    .about-content > img {
+        width: 80%;
     }
 }
 

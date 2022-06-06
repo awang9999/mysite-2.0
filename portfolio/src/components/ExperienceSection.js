@@ -6,29 +6,45 @@ import './ExperienceSection.css';
 function ExperienceSection() {
   return (
     <div className='experience-container'>
-      <a class='anchor' id='experience'></a>
+      <a className='anchor' id='experience'></a>
       <h1>Experience</h1>
-      <div className='about-content'>
-        <img src='images/picture2.jpg' alt='Profile Picture' />
-        <div className='about-content-item'>
+      <hr />
+      <div className='experience-content'>
+        <img src='images/amazon_music.jpg' alt='Amazon Music Logo' />
+        <div className='experience-content-item'>
+          <h2>Software Engineering Intern</h2>
+          <h4 className='ital'>San Francisco, CA - Summer 2022</h4>
           <p>
-            Hey! My name is Alexander Wang, and I'm a computer
-            science and mathematics double major at Cornell
-            University. My aspiration to resolve real-world problems
-            using mathematical methods led me to focus on machine
-            learning and numerical analysis.
-            Check out my course work here!
+            My internship is still ongoing! Check out this blurb after
+            August 2022!
           </p>
+        </div>
+
+        <img src='images/cornell_cis.jpg' alt='Cornell CIS Logo' />
+        <div className='experience-content-item'>
+          <h2>CS 4780 Teaching Assistant</h2>
+          <h4 className='ital'>Ithaca, NY - August 2021 to Present</h4>
           <p>
-            Although I go to school on the East Coast, I'm native
-            to the Bay Area in California and currently still reside
-            there.
+            CS 4780 is the Introduction to Machine Learning course
+            at Cornell University. As a Teaching Assistant, I create
+            and grade assignments, projects, and exams for the
+            course. In addition, I hold office hours where I help
+            students master everything from KNNs to ensembles of
+            deep neural networks.
           </p>
+        </div>
+
+        <img src='images/aws.png' alt='Amazon Web Services Logo' />
+        <div className='experience-content-item'>
+          <h2>Software Engineering Intern</h2>
+          <h4 className='ital'>Seattle, WA - Summer 2021</h4>
           <p>
-            In my free time, I enjoy exploring new places,
-            learning new recipes, going on scenic runs/bike rides,
-            and reading interesting math or computer science content.
-            Don't hesitate to reach out if you'd like to get in touch!
+            I spent my summer working as a SWE intern for AWS Connect,
+            an AWS service for creating call centers quickly
+            and at scale. My project focused on implementing delete
+            protocols for critical resources according to the rules of
+            GDPR. My project was mostly written in Java with some scripting
+            done in Ruby.
           </p>
         </div>
       </div>

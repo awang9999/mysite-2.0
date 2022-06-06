@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import '../App.css';
 import './AboutSection.css';
@@ -7,8 +6,9 @@ import './AboutSection.css';
 function AboutSection() {
   return (
     <div className='about-container'>
-      <a class='anchor' id='about'></a>
+      <a className='anchor' id='about'></a>
       <h1>About Me</h1>
+      <hr />
       <div className='about-content'>
         <img src='images/picture2.jpg' alt='Profile Picture' />
         <div className='about-content-item'>
@@ -18,7 +18,7 @@ function AboutSection() {
             University. My aspiration to resolve real-world problems
             using mathematical methods led me to focus on machine
             learning and numerical analysis.
-            Check out my course work here!
+            Check out my work here!
           </p>
           <p>
             Although I go to school on the East Coast, I'm native
