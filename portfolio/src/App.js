@@ -25,6 +25,7 @@ function App() {
           {/* Add Routes */}
           {/*  <Route exact path='/' element={<Component />} /> */}
           <Route exact path='/' element={<Home />} />
+          <Route path='/mysite2' element={<p>Hi</p>} />
         </Routes>
       </Router>
     </>

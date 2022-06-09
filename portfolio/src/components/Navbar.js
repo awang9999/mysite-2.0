@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
+import Scroll from 'react-scroll'
+
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
+const ScrollLink = Scroll.ScrollLink
 
 
 function Navbar() {
@@ -29,7 +32,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <a href='#top' className='navbar-logo' onClick={closeMobileMenu}>
+          <a href='/#top' className='navbar-logo' onClick={closeMobileMenu}>
             <img src="images/title.svg" className="filter-white" />
           </a>
           <div className='menu-icon' onClick={handleClick}>
@@ -37,17 +40,17 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <a href='#about' className='nav-links' onClick={closeMobileMenu}>
+              <a href='/#about' className='nav-links' onClick={closeMobileMenu}>
                 About
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#experience' className='nav-links' onClick={closeMobileMenu}>
+              <a href='/#experience' className='nav-links' onClick={closeMobileMenu}>
                 Experience
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#projects' className='nav-links' onClick={closeMobileMenu}>
+              <a href='/#projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
               </a>
             </li>

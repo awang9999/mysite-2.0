@@ -3,6 +3,7 @@ import React from 'react';
 import HeroSection from '../HeroSection';
 import AboutSection from '../AboutSection';
 import ExperienceSection from '../ExperienceSection';
+import ProjectsSection from '../ProjectsSection';
 
 import '../../App.css';
 
@@ -12,6 +13,7 @@ function Home() {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
+      <ProjectsSection />
     </>
   );
 }
