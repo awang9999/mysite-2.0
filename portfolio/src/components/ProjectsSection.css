@@ -128,6 +128,10 @@ a.anchor {
   line-height: 1.4;
 }
 
+.cards__item_logo {
+  color: #eee;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;

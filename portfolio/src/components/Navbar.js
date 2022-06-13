@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import Scroll from 'react-scroll'
-
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
-const ScrollLink = Scroll.ScrollLink
 
 
 function Navbar() {
@@ -60,9 +55,9 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <a className='nav-links' target='_blank' href={process.env.PUBLIC_URL + '/files/alexander_resume.pdf'} onClick={closeMobileMenu}>
                 Resume
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
               <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}>
