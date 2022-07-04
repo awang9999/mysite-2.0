@@ -16,9 +16,9 @@ function HeroSection() {
         <video src='/videos/website_hero.mp4' autoPlay loop muted />
         <h3>Hello! I'm</h3>
         <h1>Alexander</h1>
-        <a href="#about" className='more-chevron'>
+        <Link to="/#about" className='more-chevron'>
           <i className="fa-solid fa-chevron-down"></i>
-        </a>
+        </Link>
       </div>
     </Element>
   );

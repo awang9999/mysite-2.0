@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'
 
 import '../App.css';
 import './ProjectsSection.css';
@@ -6,6 +7,19 @@ import './ProjectsSection.css';
 import CardItem from './CardItem';
 
 function ProjectsSection() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      let elem = document.getElementById(location.hash.slice(1));
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth", block: "start" })
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+    }
+  }, [location,]);
+
   return (
     <div className='projects-container'>
       <a className='anchor' id='projects'></a>
@@ -33,15 +47,15 @@ function ProjectsSection() {
               title='ProjectX 2021'
               src='images/projectx.png'
               text='I led six dedicated students representing Cornell University
-                to compete in
-                ProjectX, an annual undergraduate research competition
+                to win
+                ProjectX 2021, an annual undergraduate research competition
                 hosted by the University of Toronto.
-                We investigated to what
-                extent misinformation permeated social media
+                We investigated
+                how misinformation permeated social media
                 in the context of the COVID-19 pandemic. We produced
                 a misinformation detection model based on BERT and
                 a mathematical model to assess the virality
-                of a post and ultimately won the
+                of a post and won the
               competition in the Epidemiology category. This gave
                 us the opportunity to present our findings at the 2022
                 University of Toronto AI Conference. Check out our paper!'

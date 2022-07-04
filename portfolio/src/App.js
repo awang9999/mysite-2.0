@@ -9,11 +9,13 @@ import {
 
 // Component imports
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 // CSS imports
 import './App.css';
 
 import Home from './components/pages/Home.js';
+import Blog from './components/pages/Blog.js';
 
 function App() {
   return (
@@ -25,8 +27,9 @@ function App() {
           {/* Add Routes */}
           {/*  <Route exact path='/' element={<Component />} /> */}
           <Route exact path='/' element={<Home />} />
-          <Route path='/mysite2' element={<p>Hi</p>} />
+          <Route path='/blog' element={<Blog />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

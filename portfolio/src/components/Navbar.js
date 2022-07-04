@@ -27,30 +27,30 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <a href='/#top' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src="images/title.svg" className="filter-white" />
-          </a>
+          </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <a href='/#about' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/#about' className='nav-links' onClick={closeMobileMenu}>
                 About
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a href='/#experience' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/#experience' className='nav-links' onClick={closeMobileMenu}>
                 Experience
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a href='/#projects' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/#projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
                 Blog
               </Link>
             </li>
@@ -59,11 +59,11 @@ function Navbar() {
                 Resume
               </a>
             </li>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Contact
-              </Link>
-            </li>
+            {/* <li className='nav-item'> */}
+            {/*   <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}> */}
+            {/*     Contact */}
+            {/*   </Link> */}
+            {/* </li> */}
           </ul>
           {/* button && <Button buttonStyle='btn--outline'>Contact</Button>*/}
         </div>
