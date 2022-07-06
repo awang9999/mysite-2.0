@@ -21,7 +21,7 @@ jobs:
           name: Build
           command: |
             if [ $CIRCLE_BRANCH = 'circleci-project-setup' ]; then
-              cd portfolio && npm run build
+              pwd && cd portfolio && pwd && npm run build
             fi
       - persist_to_workspace:
           root: .
