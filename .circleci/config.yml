@@ -1,11 +1,13 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/repo
+    working_directory: ~/repo/portfolio
     docker:
       - image: circleci/node:12-browsers
     steps:
-      - checkout
+      - checkout:
+          path: ~/repo
+
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package-lock.json" }}
@@ -28,7 +30,7 @@ jobs:
           paths:
             - .
   deploy:
-    working_directory: ~/repo
+    working_directory: ~/repo/portfolio
     docker:
       - image: innovatorjapan/awscli:latest
     steps:
