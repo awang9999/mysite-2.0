@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/repo/portfolio
+    working_directory: ~/repo
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -21,7 +21,7 @@ jobs:
           name: Build
           command: |
             if [ $CIRCLE_BRANCH = 'circleci-project-setup' ]; then
-              npm run build
+              cd portfolio && npm run build
             fi
       - persist_to_workspace:
           root: .
