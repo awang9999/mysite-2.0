@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -7,19 +7,6 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const [button, setButton] = useState(true);
-  const showButton = () => {
-    if (window.innerWidth <= 1120) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton()
-  }, []);
 
   window.addEventListener('resize', showButton);
 
@@ -55,17 +42,11 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-links' target='_blank' href={process.env.PUBLIC_URL + '/files/alexander_resume.pdf'} onClick={closeMobileMenu}>
+              <a className='nav-links' target='_blank' rel='noreferrer' href={process.env.PUBLIC_URL + '/files/alexander_resume.pdf'} onClick={closeMobileMenu}>
                 Resume
               </a>
             </li>
-            {/* <li className='nav-item'> */}
-            {/*   <Link to='/' className='nav-links-mobile' onClick={closeMobileMenu}> */}
-            {/*     Contact */}
-            {/*   </Link> */}
-            {/* </li> */}
           </ul>
-          {/* button && <Button buttonStyle='btn--outline'>Contact</Button>*/}
         </div>
       </nav>
     </>

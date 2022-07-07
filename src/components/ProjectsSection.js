@@ -22,7 +22,7 @@ function ProjectsSection() {
 
   return (
     <div className='projects-container'>
-      <a className='anchor' id='projects'></a>
+      <button className='anchor' id='projects'></button>
       <h1>Featured Projects</h1>
       <hr />
       <h4>Click on any project to learn more!</h4>

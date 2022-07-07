@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { Button } from './Button';
-
 import { Element } from 'react-scroll';
 
 import '../App.css';

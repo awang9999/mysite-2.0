@@ -21,11 +21,11 @@ function AboutSection() {
 
   return (
     <div className='about-container'>
-      <a className='anchor' id='about'></a>
+      <button className='anchor' id='about'></button>
       <h1>About Me</h1>
       <hr />
       <div className='about-content'>
-        <img src='images/picture2.jpg' alt='Profile Picture' />
+        <img src='images/picture2.jpg' alt='Profile showing Alexander in front of the Colosseum' />
         <div className='about-content-item'>
           <p>
             Hey! My name is Alexander Wang, and I'm a computer

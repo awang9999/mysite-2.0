@@ -20,7 +20,7 @@ function ExperienceSection() {
 
   return (
     <div className='experience-container'>
-      <a className='anchor' id='experience'></a>
+      <button className='anchor' id='experience'></button>
       <h1>Experience</h1>
       <hr />
       <div className='experience-content'>
