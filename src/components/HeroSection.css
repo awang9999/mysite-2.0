@@ -3,7 +3,7 @@ video {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
-    z-index:-1
+    z-index:-1;
 }
 
 .hero-container {
@@ -56,6 +56,11 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+  video {
+    position: absolute;
+    top: -20px;
+  }
+
   .hero-content > h1 {
     font-size: 50px;
   }
