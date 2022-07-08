@@ -1,0 +1,37 @@
+[21:26:44.776] Global cache location '/home/zander/.cache/typescript/4.7', safe file path '/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/typingSafeList.json', types map path /home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/typesMap.json
+[21:26:44.777] Processing cache location '/home/zander/.cache/typescript/4.7'
+[21:26:44.777] Trying to find '/home/zander/.cache/typescript/4.7/package.json'...
+[21:26:44.778] Loaded content of '/home/zander/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.599"},"devDependencies":{"@types/react-router-dom":"^5.3.3","@types/react-scroll":"^1.8.3"}}
+[21:26:44.778] Loaded content of '/home/zander/.cache/typescript/4.7/package-lock.json'
+[21:26:44.787] Adding entry into typings cache: 'react-router-dom' => '/home/zander/.cache/typescript/4.7/node_modules/@types/react-router-dom/index.d.ts'
+[21:26:44.789] Adding entry into typings cache: 'react-scroll' => '/home/zander/.cache/typescript/4.7/node_modules/@types/react-scroll/index.d.ts'
+[21:26:44.789] Finished processing cache location '/home/zander/.cache/typescript/4.7'
+[21:26:44.789] Process id: 52104
+[21:26:44.789] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[21:26:44.789] validateDefaultNpmLocation: false
+[21:26:44.789] Npm config file: /home/zander/.cache/typescript/4.7/package.json
+[21:26:44.789] Updating types-registry npm package...
+[21:26:44.789] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[21:26:45.879]     Succeeded. stdout:
+    
+    up to date, audited 10 packages in 969ms
+
+found 0 vulnerabilities
+
+[21:26:45.879] Updated types-registry npm package
+[21:26:46.131] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es5.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2016.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.dom.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.scripthost.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/zander/everything/projects/mysite-2.0/src/components/HeroSection.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/zander/everything/projects/mysite-2.0/src/components","kind":"discover"}
+[21:26:46.139] Loaded safelist from types map file '/home/zander/everything/projects/mysite-2.0/node_modules/typescript/lib/typesMap.json'
+[21:26:46.139] Explicitly included types: []
+[21:26:46.140] Inferred typings from unresolved imports: []
+[21:26:46.140] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/zander/everything/projects/mysite-2.0/src/components/bower_components","/home/zander/everything/projects/mysite-2.0/src/components/node_modules"]}
+[21:26:46.140] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/zander/everything/projects/mysite-2.0/src/components/bower_components","/home/zander/everything/projects/mysite-2.0/src/components/node_modules"]}
+[21:26:46.140] DirectoryWatcher:: Added:: WatchInfo: /home/zander/everything/projects/mysite-2.0/src/components/bower_components
+[21:26:46.141] DirectoryWatcher:: Added:: WatchInfo: /home/zander/everything/projects/mysite-2.0/src/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[21:26:46.142] Elapsed:: 1.3909709975123405ms DirectoryWatcher:: Added:: WatchInfo: /home/zander/everything/projects/mysite-2.0/src/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[21:26:46.142] DirectoryWatcher:: Added:: WatchInfo: /home/zander/everything/projects/mysite-2.0/src/components/node_modules
+[21:26:46.142] DirectoryWatcher:: Added:: WatchInfo: /home/zander/everything/projects/mysite-2.0/src/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[21:26:46.142] Elapsed:: 0.10716299712657928ms DirectoryWatcher:: Added:: WatchInfo: /home/zander/everything/projects/mysite-2.0/src/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[21:26:46.143] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[21:26:46.143] Response has been sent.
+[21:26:46.143] No new typings were requested as a result of typings discovery
