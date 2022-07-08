@@ -6,6 +6,16 @@
   font-family: 'Raleway', sans-serif;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
 /* .services { */
 /*   background-image: url('../public/images/img-2.jpg'); */
 /*   background-position: center; */
