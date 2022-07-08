@@ -38,7 +38,7 @@ jobs:
           name: Deploy
           command: |
             if [ $CIRCLE_BRANCH = 'circleci-project-setup' ]; then
-              aws s3 sync build s3://awang9999-personal-website --delete --exact-timestamps;
+              aws s3 sync build s3://www.alexander-wang.net --delete --exact-timestamps;
             fi
 workflows:
   build_and_deploy:
