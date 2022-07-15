@@ -9,8 +9,24 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
+  color: #ddd;
   font-size: 48px;
+}
+
+.github:hover {
+  color: #fc9867;
+}
+
+.instagram:hover {
+  color: #a9dc76;
+}
+
+.twitter:hover {
+  color: #78dce8;
+}
+
+.linkedin:hover {
+  color: #ffd866;
 }
 
 .social-media {
@@ -37,7 +53,7 @@
 }
 
 .footer-contactme {
-    color: #fff;
+    color: #ddd;
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -47,7 +63,6 @@
 }
 
 .social-logo {
-  color: #fff;
   justify-self: start;
   cursor: pointer;
   display: flex;
@@ -56,9 +71,14 @@
   max-width: 500px;
 }
 
+.website-version {
+  color: #ddd;
+  margin-top: 10px;
+}
+
 .website-rights {
-  color: #fff;
-  margin-top: 16px;
+  color: #ddd;
+  margin-top: 6px;
 }
 
 @media screen and (max-width: 820px) {

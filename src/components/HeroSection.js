@@ -9,8 +9,8 @@ function HeroSection() {
 
   return (
     <>
-      <video src='/videos/website_hero.mp4' poster='/images/video_poster.jpg' autoPlay loop muted />
       <div className='hero-container'>
+        <video src='/videos/website_hero.mp4' poster='/images/video_poster.jpg' autoPlay loop muted />
         <div className='hero-content'>
           <h3>Hello! I'm</h3>
           <h1>Alexander</h1>
