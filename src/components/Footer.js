@@ -10,7 +10,7 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/#top' className='social-logo'>
+            <Link to='/' className='social-logo'>
               <img src="images/title.svg" alt='Alexander Logo' className="filter-white" />
             </Link>
           </div>
