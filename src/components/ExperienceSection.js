@@ -31,12 +31,10 @@ function ExperienceSection() {
           <p>
             As a return SWE intern at Amazon, I took on a more complex project
             focused on developing a dashboard to display internal
-            database metrics. I integrated S3 and Redshift components and developed
-            a React.js front end and a Java server backend to handle the task. During this
-            internship, I worked a lot with AWS S3, AWS Redshift, AWS permissions,
-            SQL queries, Java, JavaScript, React.js, and Mockito.
-            My internship is still ongoing! Check out this blurb after
-            August 2022 for more information!
+            database metrics. I integrated AWS S3 with AWS Redshift and developed
+            a React.js front end and a Java server backend to complete the task. During this
+            internship, I worked with AWS S3, AWS Redshift, AWS SQS, AWS IAM,
+            SQL, Java, JavaScript, React.js, and Mockito.
           </p>
         </div>
 

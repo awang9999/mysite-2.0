@@ -28,6 +28,15 @@
     font-size: 1.5rem;
 }
 
+.blog-notes-index {
+    margin-top: 20px;
+}
+
+.blog-notes-index-content{
+    align-items: left;
+    justify-items: left;
+}
+
 @media screen and (max-width: 1120px) {
     .blog-container > h1 {
         font-size: 2.5rem;

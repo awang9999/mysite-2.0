@@ -21,6 +21,14 @@ function Blog() {
             <p>
               [Coming December 2022]
             </p>
+            <div className='blog-notes-index'>
+              <h2>Notes:</h2>
+              <div className='blog-notes-index-content'>
+                <ul>
+                  <li><p>Hello world</p></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </ScrollToTop>
