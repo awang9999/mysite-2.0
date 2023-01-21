@@ -19,7 +19,7 @@ function Blog() {
               Hopefully it'll be done soon!
             </p>
             <p>
-              [Coming December 2022]
+              [Coming January 2023]
             </p>
           </div>
         </div>
@@ -29,3 +29,4 @@ function Blog() {
 }
 
 export default Blog;
+
