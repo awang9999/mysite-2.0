@@ -20,7 +20,7 @@ jobs:
       - run:
           name: Build
           command: |
-            if [ $CIRCLE_BRANCH = 'circleci-project-setup' ]; then
+            if [ $CIRCLE_BRANCH = 'live' ]; then
               npm run build
             fi
       - persist_to_workspace:
@@ -37,7 +37,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            if [ $CIRCLE_BRANCH = 'circleci-project-setup' ]; then
+            if [ $CIRCLE_BRANCH = 'live' ]; then
               aws s3 sync build s3://www.alexander-wang.net --delete --exact-timestamps;
             fi
 workflows:
@@ -47,11 +47,11 @@ workflows:
           filters:
             branches:
               only:
-                - circleci-project-setup
+                - live
       - deploy:
           requires:
             - build
           filters:
             branches:
               only:
-                - circleci-project-setup
+                - live
