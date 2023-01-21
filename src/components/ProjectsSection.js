@@ -33,13 +33,17 @@ function ProjectsSection() {
               title='Personal Website'
               src='images/mysite2.jpg'
               text='This website is built from scratch using
-              React.js, HTML, CSS, and Javascript. It is deployed
-              using AWS S3 and CloudFront. This was my first dive
-              into React.js.
+              React.js, HTML, CSS, and JavaScript. It is continuously integrated
+              and deployed using CircleCI. The website is hosted on AWS S3 and
+              served bym AWS CloudFront.
+              This was my first dive into React.js as well as continuous
+              integration and deployment.
               Although it barely scrapes the surface of what
-              the library is capable of, I learned a lot about
+              the React.js is capable of, I learned a lot about
               designing components and implementing a user
-              interface according to a basic wireframe.'
+              interface according to a basic wireframe.
+              Moreover, I became much more familiar with AWS S3, CloudFront and
+              DNS routing during this project.'
               label='React.js'
               path='https://github.com/awang9999/mysite-2.0'
             />

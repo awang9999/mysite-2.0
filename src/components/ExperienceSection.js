@@ -29,8 +29,12 @@ function ExperienceSection() {
           <h2>Software Engineering Intern</h2>
           <h4 className='ital'>San Francisco, CA - Summer 2022</h4>
           <p>
-            My internship is still ongoing! Check out this blurb after
-            August 2022!
+            As a return SWE intern at Amazon, I took on a more complex project
+            focused on developing a dashboard to display internal
+            database metrics. I integrated AWS S3 with AWS Redshift and developed
+            a React.js front end and a Java server backend to complete the task. During this
+            internship, I worked with AWS S3, AWS Redshift, AWS SQS, AWS IAM,
+            SQL, Java, JavaScript, React.js, and Mockito.
           </p>
         </div>
 
@@ -43,8 +47,9 @@ function ExperienceSection() {
             at Cornell University. As a Teaching Assistant, I create
             and grade assignments, projects, and exams for the
             course. In addition, I hold office hours where I help
-            students master everything from KNNs to ensembles of
-            deep neural networks.
+            students master everything from KNN to ensembles of
+            deep neural networks. This class makes extensive use of
+            Python, Numpy, Pandas, PyTorch, and Jupyter.
           </p>
         </div>
 

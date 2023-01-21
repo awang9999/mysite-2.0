@@ -8,14 +8,15 @@ import {
 } from 'react-router-dom';
 
 // Component imports
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 
 // CSS imports
 import './App.css';
 
 import Home from './components/pages/Home.js';
 import Blog from './components/pages/Blog.js';
+import Todo from './components/pages/Todo.js';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           {/*  <Route exact path='/' element={<Component />} /> */}
           <Route exact path='/' element={<Home />} />
           <Route path='/blog' element={<Blog />} />
+          <Route path='/todo' element={<Todo />} />
         </Routes>
         <Footer />
       </Router>

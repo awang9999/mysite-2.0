@@ -2,23 +2,24 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { Element } from 'react-scroll';
-
 import '../App.css';
 import './HeroSection.css';
 
 function HeroSection() {
+
   return (
-    <Element id='top' name='top'>
+    <>
       <div className='hero-container'>
-        <video src='/videos/website_hero.mp4' autoPlay loop muted />
-        <h3>Hello! I'm</h3>
-        <h1>Alexander</h1>
-        <Link to="/#about" className='more-chevron'>
-          <i className="fa-solid fa-chevron-down"></i>
-        </Link>
+        <video src='/videos/website_hero.mp4' poster='/images/video_poster.jpg' autoPlay loop muted />
+        <div className='hero-content'>
+          <h3>Hello! I'm</h3>
+          <h1>Alexander</h1>
+          <Link to="/#about" className='more-chevron'>
+            <i className="fa-solid fa-chevron-down"></i>
+          </Link>
+        </div>
       </div>
-    </Element>
+    </>
   );
 }
 

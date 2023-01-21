@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-
 function Footer() {
 
   return (
@@ -10,7 +9,7 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/#top' className='social-logo'>
+            <Link to='/' className='social-logo'>
               <img src="images/title.svg" alt='Alexander Logo' className="filter-white" />
             </Link>
           </div>
@@ -56,6 +55,7 @@ function Footer() {
               <i className='fab fa-linkedin' />
             </a>
           </div>
+          <small className='website-version'>v1.1.1</small>
           <small className='website-rights'>Alexander Wang © 2022</small>
         </div>
       </section>
