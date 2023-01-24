@@ -47,24 +47,22 @@ function ProjectsSection() {
               label='React.js'
               path='https://github.com/awang9999/mysite-2.0'
             />
-            <CardItem
-              title='ProjectX 2021'
-              src='images/projectx.png'
-              text='I led six dedicated students representing Cornell University
-                to win
-                ProjectX 2021, an annual undergraduate research competition
-                hosted by the University of Toronto.
-                We investigated
-                how misinformation permeated social media
-                in the context of the COVID-19 pandemic. We produced
-                a misinformation detection model based on BERT and
-                a mathematical model to assess the virality
-                of a post and won the
-              competition in the Epidemiology category. This gave
-                us the opportunity to present our findings at the 2022
-                University of Toronto AI Conference. Check out our paper!'
-              label='Machine Learning, Python'
-              path='https://github.com/CornellDataScience/ProjectX-2021'
+			<CardItem
+              title='MathSearch'
+              src='images/mathsearch_team_pic.jpg'
+              text='MathSearch is a project idea I developed during my
+                    undergraduate degree in mathematics. I wanted a way
+                    to search for equations within academic texts like 
+                    pdfs of research papers or textbooks. I 
+                    assembled a team of 14 students from Cornell Data Science
+                    and spent the Fall 2022 semester developing a prototype
+                    search engine to serve this purpose. We fine-tuned YoloV7 
+                    (object detection) and a siamese network to recognize
+                    equations and compare them to the search query. Then, we
+                    integrated this backend with AWS and a React.js frontend
+                    to create a prototype end-to-end product.'
+              label='ML, AWS, Javascript'
+              path='https://github.com/CornellDataScience/MathSearch'
             />
           </ul>
         </div>

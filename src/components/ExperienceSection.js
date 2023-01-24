@@ -41,7 +41,7 @@ function ExperienceSection() {
         <img src='images/cornell_cis.jpg' alt='Cornell CIS Logo' />
         <div className='experience-content-item'>
           <h2>CS 4780 Teaching Assistant</h2>
-          <h4 className='ital'>Ithaca, NY - August 2021 to Present</h4>
+          <h4 className='ital'>Ithaca, NY - August 2021 to December 2022</h4>
           <p>
             CS 4780 is the Introduction to Machine Learning course
             at Cornell University. As a Teaching Assistant, I create
