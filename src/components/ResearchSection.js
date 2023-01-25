@@ -23,8 +23,37 @@ function ResearchSection() {
       <button className='anchor' id='research'></button>
       <h1>Research</h1>
       <hr />
-      <div className='research-content'>
-        <img src='images/projectx.png' alt='Project X Confusion Matrix' />
+		<div className='research-content'>
+			
+		<img src='images/nn_research.png' alt='ProjectX arXiv paper' />
+        <div className='research-content-item'>
+          <h2>Neural Network Training Sensitivity</h2>
+			<h4 className='ital'>Ithaca, NY - Aug 2022 to present</h4>
+			<h4 >Advisor: Prof. Anil Damle</h4>
+          <p>
+			  Motivated by neural network compression, we
+			  investigated the similarity of neural networks
+			  fine-tuned from the same base model after a minor
+			  perturbation to its weights. Specifically, we studied
+			  how fine-tuning VGG-16 neural networks on the CIFAR-10
+			  dataset would change the model's predictions. We
+			  aimed to determine whether we could tell two neural
+			  networks were in fact fine-tuned from the same base
+			  neural network by studying the variance of the networks.
+			  My work in this area evolved towards exploring whether
+			  the variance from fine-tuning would be enough to
+			  produce a good ensemble model. This research is still
+			  in progress!
+			  <br/>
+			  <b>
+				  [<a
+					  href="https://github.com/awang9999/nn-sensitivity-research"
+					  target="_blank" >Github</a>]
+			  </b>
+          </p>
+        </div>
+			
+        <img src='images/projectxpaper.jpg' alt='ProjectX arXiv paper' />
         <div className='research-content-item'>
           <h2>ProjectX 2021</h2>
 			<h4 className='ital'>Ithaca, NY - Aug 2021 to Feb 2022</h4>
@@ -44,10 +73,10 @@ function ResearchSection() {
 			  <b>
 				  [<a
 					  href="https://github.com/CornellDataScience/ProjectX-2021"
-					  target="_blank" >github</a>]
+					  target="_blank" >Github</a>]
 				  [<a
 					   href="https://arxiv.org/abs/2207.01483"
-				   target="_blank">paper</a>]
+				   target="_blank">arXiv</a>]
 			  </b>
           </p>
         </div>
