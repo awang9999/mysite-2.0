@@ -48,7 +48,7 @@ function ResearchSection() {
 			  <b>
 				  [<a
 					  href="https://github.com/awang9999/nn-sensitivity-research"
-					  target="_blank" >Github</a>]
+					  target="_blank" rel="noreferrer">Github</a>]
 			  </b>
           </p>
         </div>
@@ -73,10 +73,10 @@ function ResearchSection() {
 			  <b>
 				  [<a
 					  href="https://github.com/CornellDataScience/ProjectX-2021"
-					  target="_blank" >Github</a>]
+					  target="_blank" rel="noreferrer">Github</a>]
 				  [<a
 					   href="https://arxiv.org/abs/2207.01483"
-				   target="_blank">arXiv</a>]
+				   target="_blank" rel="noreferrer">arXiv</a>]
 			  </b>
           </p>
         </div>
