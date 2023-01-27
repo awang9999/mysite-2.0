@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #242424;
+  background-color: var(--footer-bg-color);
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #ddd;
+  color: var(--footer-fg-color);
   font-size: 48px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .footer-contactme {
-    color: #ddd;
+    color: var(--footer-fg-color);
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -72,12 +72,12 @@
 }
 
 .website-version {
-  color: #ddd;
+  color: var(--footer-fg-color);
   margin-top: 10px;
 }
 
 .website-rights {
-  color: #ddd;
+  color: var(--footer-fg-color);
   margin-top: 6px;
 }
 
