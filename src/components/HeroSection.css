@@ -24,22 +24,22 @@ video {
 
 .hero-content > h1 {
     margin-top: 10px;
-    color: #fff;
+    color: var(--hero-fg-color);
     font-size: 100px;
 }
 
 .hero-content > h3 {
-    color: #fff;
+    color: var(--hero-fg-color);
     font-size: 70px;
 }
 
 .more-chevron {
     font-size: 50px;
-    color: #888;
+    color: var(--hero-chevron-color);
 }
 
 .more-chevron:hover {
-    color: #fff;
+    color: var(--hero-fg-color);
     transition: all 200ms ease-out;
 }
 
