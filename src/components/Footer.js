@@ -55,7 +55,7 @@ function Footer() {
               <i className='fab fa-linkedin' />
             </a>
           </div>
-          <small className='website-version'>v1.2.0</small>
+          <Link className='footer-links' to='/changelog'><small className='website-version'>v2.1.0</small></Link>
           <small className='website-rights'>Alexander Wang © 2023</small>
         </div>
       </section>
