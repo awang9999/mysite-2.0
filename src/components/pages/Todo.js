@@ -40,22 +40,10 @@ function Todo() {
                 <td>2022-07-23</td>
                 <td></td>
               </tr>
-              <tr className="undone">
-                <td>Read 20,000 Leagues Under the Sea</td>
-                <td>2022-07-25</td>
-                <td>2022-08-20</td>
-                <td></td>
-              </tr>
-              <tr className="undone">
+              <tr className="done">
                 <td>Read Slicing Pie</td>
                 <td>2022-08-13</td>
                 <td>2022-09-13</td>
-                <td></td>
-              </tr>
-              <tr className="undone">
-                <td>Create personal blog page</td>
-                <td>2022-08-13</td>
-                <td>2022-12-31</td>
                 <td></td>
               </tr>
             </table>
@@ -67,6 +55,20 @@ function Todo() {
                 <th>Estimated Date Complete</th>
                 <th>Notes</th>
               </tr>
+			  
+              <tr className="undone">
+                <td>Read 20,000 Leagues Under the Sea</td>
+                <td>2022-07-25</td>
+                <td>2023-01-31</td>
+                <td>Pushed back. Original date 2022-08-20</td>
+              </tr>
+				
+              <tr className="undone">
+                <td>Create personal blog page</td>
+                <td>2022-08-13</td>
+                <td>2023-02-28</td>
+                <td>Pushed back. Original date 2022-12-31</td>
+              </tr>
               <tr className="undone">
                 <td>Create household memory aid app</td>
                 <td>2022-08-13</td>
@@ -76,17 +78,11 @@ function Todo() {
               <tr className="undone">
                 <td>Start Square Zero YouTube Channel</td>
                 <td>2022-08-13</td>
-                <td>2023-01-31</td>
-                <td></td>
+                <td>2023-02-28</td>
+                  <td>Pushed back. Original date 2023-01-31</td>
               </tr>
               <tr className="undone">
                 <td>Build rainbow Lego UCS Star Destroyer</td>
-                <td>2022-08-13</td>
-                <td>2023-08-31</td>
-                <td></td>
-              </tr>
-              <tr className="undone">
-                <td>Develop business proposal for internet privacy service</td>
                 <td>2022-08-13</td>
                 <td>2023-08-31</td>
                 <td></td>

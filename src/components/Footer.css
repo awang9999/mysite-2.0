@@ -71,6 +71,10 @@
   max-width: 500px;
 }
 
+.footer-links {
+	text-decoration: none;
+}
+
 .website-version {
   color: var(--footer-fg-color);
   margin-top: 10px;

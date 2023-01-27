@@ -14,9 +14,10 @@ import Footer from './components/Footer.js';
 // CSS imports
 import './App.css';
 
-import Home from './components/pages/Home.js';
-import Blog from './components/pages/Blog.js';
-import Todo from './components/pages/Todo.js';
+import Home      from './components/pages/Home.js';
+import Blog      from './components/pages/Blog.js';
+import Todo      from './components/pages/Todo.js';
+import Changelog from './components/pages/Changelog.js';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/todo' element={<Todo />} />
+          <Route path='/changelog' element={<Changelog />} />
         </Routes>
         <Footer />
       </Router>
