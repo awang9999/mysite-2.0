@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     height:  var(--navbar-height);
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 .navbar-logo {
@@ -30,7 +30,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    max-width: 28%;
+    max-width: 20%;
 }
 
 .filter-white {
@@ -44,7 +44,7 @@
     grid-gap: 5px;
     list-style: none;
     text-align: center;
-    width: 65vw;
+    width: 75vw;
     justify-content: end;
 }
 
