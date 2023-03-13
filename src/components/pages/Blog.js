@@ -3,7 +3,6 @@ import React from 'react';
 import '../../App.css';
 import './Blog.css';
 
-import '../ScrollToTop';
 import ScrollToTop from '../ScrollToTop';
 
 function Blog() {

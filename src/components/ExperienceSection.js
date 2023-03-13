@@ -19,7 +19,7 @@ function ExperienceSection() {
   }, [location,]);
 
   return (
-    <div className='experience-container'>
+    <div className='experience-container raleway'>
       <button className='anchor' id='experience'></button>
       <h1>Experience</h1>
       <hr />

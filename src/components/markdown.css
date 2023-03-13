@@ -1,0 +1,40 @@
+.markdown {
+    color: var(--main-fg-color);
+    font-size: 1.5rem;
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.math-display {
+	  background-color: var(--nord4);
+    padding: 1rem;
+	  border-radius: 1rem;
+	  margin-top: 2rem;
+	  margin-bottom: 2rem;
+    font-family: 'Noto Sans Math', sans-serif;
+}
+
+.math-inline {
+    font-family: 'Noto Sans Math', sans-serif;
+}
+
+.markdown-hr {
+    margin: 10px auto;
+    width: 100%;
+    height: 1px;
+    border-width: 0;
+    background-color: var(--main-hr-color); /* rgba(33, 158, 188, 1); */
+    align: center;
+}
+
+.markdown-h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.markdown-h2 {
+    margin-top: 2.5rem;
+}
+
+.markdown-p {
+    margin-top: 1rem;
+}

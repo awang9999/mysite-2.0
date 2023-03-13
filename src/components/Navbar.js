@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar raleway'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src="images/title.svg" alt='Alexander logo' className="filter-nord6" />

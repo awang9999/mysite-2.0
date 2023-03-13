@@ -19,7 +19,7 @@ function ResearchSection() {
   }, [location,]);
 
   return (
-    <div className='research-container'>
+    <div className='research-container raleway'>
       <button className='anchor' id='research'></button>
       <h1>Research</h1>
       <hr />
