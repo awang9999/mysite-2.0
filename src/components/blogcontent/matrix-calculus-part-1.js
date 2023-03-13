@@ -3,12 +3,10 @@ import React from 'react';
 import '../../App.css';
 import './blogcontent.css'
 
-import { createRoot } from 'react-dom/client'
-import ReactDOM from 'react-dom';
 import ScrollToTop from '../ScrollToTop';
 
 import Markdown from '../Markdown.js';
-
+import MatrixCalculusTOC from './matrix-calculus-toc.js';
 
 function MatrixCalculusPart1() {
     
@@ -91,6 +89,8 @@ function MatrixCalculusPart1() {
                         <div className='blog-article-hero'>
                             <canvas></canvas>
                         </div>
+
+                        <MatrixCalculusTOC />
                        
 				                <div className='blog-article' id='blog-article'>
                             <Markdown src={articleSource} />

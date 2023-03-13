@@ -3,16 +3,14 @@ import React from 'react';
 import '../../App.css';
 import './blogcontent.css'
 
-import { createRoot } from 'react-dom/client'
-import ReactDOM from 'react-dom';
 import ScrollToTop from '../ScrollToTop';
 
 import Markdown from '../Markdown.js';
-
+import MatrixCalculusTOC from './matrix-calculus-toc.js'
 
 function MatrixCalculusPreface() {
     
-    const articleSource = "blog/matrix-calculus-chapter1.md";
+    const articleSource = "blog/matrix-calculus-preface.md";
 
     React.useEffect(() => {
 
@@ -81,8 +79,7 @@ function MatrixCalculusPreface() {
                         <div className='blog-article-title'>
 				                    <h1>Matrix Calculus | Preface</h1>
                             <h3>
-                                Here is a review of concepts from
-                                multivariable calculus that are helpful for learning matrix calculus.
+                                A series of articles about matrix calculus in the context of machine learning.
                             </h3>
                         </div>
 
@@ -91,9 +88,11 @@ function MatrixCalculusPreface() {
                         <div className='blog-article-hero'>
                             <canvas></canvas>
                         </div>
+
+                        <MatrixCalculusTOC />
                        
 				                <div className='blog-article' id='blog-article'>
-                            { /* <Markdown src={articleSource} /> */ }
+                            <Markdown src={articleSource} />
                         </div>
                     </div>
                 </div>

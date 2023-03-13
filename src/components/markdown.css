@@ -10,6 +10,7 @@
 	  border-radius: 1rem;
 	  margin-top: 2rem;
 	  margin-bottom: 2rem;
+    font-size: 1.5rem;
     font-family: 'Noto Sans Math', sans-serif;
 }
 
@@ -37,4 +38,48 @@
 
 .markdown-p {
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 1120px) {
+    .markdown {
+        font-size: 1.2rem;
+    }
+
+    .markdown-h1 {
+        font-size: 2.5rem;
+    }
+
+    .markdown-h2 {
+        font-size: 1.5rem;
+    }
+    
+    .math-display {
+        font-size: 1.2rem;
+    }
+
+    .math-inline {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .markdown {
+        font-size: 1rem;
+    }
+
+    .markdown-h1 {
+        font-size: 1.5rem;
+    }
+    
+    .markdown-h2 {
+        font-size: 1.2rem;
+    }
+
+    .math-display {
+        font-size: 0.8rem;
+    }
+
+    .math-inline {
+        font-size: 0.8rem;
+    }
 }
