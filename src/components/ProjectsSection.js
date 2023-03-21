@@ -21,7 +21,7 @@ function ProjectsSection() {
   }, [location,]);
 
   return (
-    <div className='projects-container'>
+    <div className='projects-container raleway'>
       <button className='anchor' id='projects'></button>
       <h1>Featured Projects</h1>
       <hr />

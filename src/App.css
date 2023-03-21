@@ -44,11 +44,18 @@
 	--footer-bg-color: var(--nord0);
 	--footer-fg-color: var(--nord4);
 	--footer-highlight-color: var(--nord6);
+
+  /* Extra Colors */
+  --subtitle-color: #828586;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
 }
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+

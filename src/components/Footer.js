@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
 
   return (
-    <div className='footer-container'>
+    <div className='footer-container raleway'>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
@@ -55,7 +55,7 @@ function Footer() {
               <i className='fab fa-linkedin' />
             </a>
           </div>
-          <Link className='footer-links' to='/changelog'><small className='website-version'>v2.1.0</small></Link>
+          <Link className='footer-links' to='/changelog'><small className='website-version'>v2.2.0</small></Link>
           <small className='website-rights'>Alexander Wang © 2023</small>
         </div>
       </section>

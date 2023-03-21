@@ -20,7 +20,7 @@ function AboutSection() {
   }, [location,])
 
   return (
-    <div className='about-container'>
+    <div className='about-container raleway'>
       <button className='anchor' id='about'></button>
       <h1>About Me</h1>
       <hr />
@@ -46,13 +46,11 @@ function AboutSection() {
 			  going on scenic runs/bike rides.
               Don't hesitate to reach out if you'd like to get in touch!
           </p>
-		  <p>
-			  Contact me at:
-			  <ul>
-				  <li><b>alexander.wang2001@gmail.com</b> or</li>
-				  <li><b>aw576@cornell.edu</b></li>
-			  </ul>
-		  </p>
+		  Contact me at:
+		  <ul>
+			<li><b>alexander.wang2001@gmail.com</b> or</li>
+			<li><b>aw576@cornell.edu</b></li>
+		  </ul>
         </div>
       </div>
     </div>
