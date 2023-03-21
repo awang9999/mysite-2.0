@@ -170,14 +170,13 @@ out the total derivative explicitly, we would get the following
 $m \times n$ matrix:
 
 $$
-
 \begin{align*}
     D\mathbf{f} =
     \begin{bmatrix}
-        \frac{\partial f_1}{dx_1} & \frac{\partial f_1}{dx_2} & \cdots & \frac{\partial f_1}{dx_n} \\
-        \frac{\partial f_2}{dx_1} & \frac{\partial f_2}{dx_2} & \cdots & \frac{\partial f_2}{dx_n} \\
+        \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \cdots & \frac{\partial f_1}{\partial x_n} \\
+        \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \cdots & \frac{\partial f_2}{\partial x_n} \\
         \vdots & \vdots & \ddots & \vdots \\
-        \frac{\partial f_m}{dx_1} & \frac{\partial f_m}{dx_2} & \cdots & \frac{\partial f_m}{dx_n} \\
+        \frac{\partial f_m}{\partial x_1} & \frac{\partial f_m}{\partial x_2} & \cdots & \frac{\partial f_m}{\partial x_n} \\
     \end{bmatrix}
 \end{align*}
 $$
@@ -205,6 +204,7 @@ $$
            \end{bmatrix}
 \end{align*}
 $$
+
 Intuitively, the value $\nabla f(\mathbf{p})$ represents the direction
 and rate of fastest increase in $f$ at $\mathbf{p}$. The gradient is
 also intrinsically related to the total derivative in that the dot
@@ -227,10 +227,10 @@ $$
 \begin{align*}
     D\mathbf{f} =
     \begin{bmatrix}
-        \frac{\partial f_1}{dx_1} & \frac{\partial f_1}{dx_2} & \cdots & \frac{\partial f_1}{dx_n} \\
-        \frac{\partial f_2}{dx_1} & \frac{\partial f_2}{dx_2} & \cdots & \frac{\partial f_2}{dx_n} \\
+        \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \cdots & \frac{\partial f_1}{\partial x_n} \\
+        \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \cdots & \frac{\partial f_2}{\partial x_n} \\
         \vdots & \vdots & \ddots & \vdots \\
-        \frac{\partial f_m}{dx_1} & \frac{\partial f_m}{dx_2} & \cdots & \frac{\partial f_m}{dx_n} \\
+        \frac{\partial f_m}{\partial x_1} & \frac{\partial f_m}{\partial x_2} & \cdots & \frac{\partial f_m}{\partial x_n} \\
     \end{bmatrix}
     =
     \begin{bmatrix}

@@ -17,7 +17,7 @@ function Markdown(props){
         fetch(props.src)
             .then((res) => res.text())
             .then((text) => setContent(text));
-    }, []);
+    }, [props.src]);
     
     return (
         <>
@@ -36,6 +36,21 @@ function Markdown(props){
                         <div>
                             <h2 className='markdown-h2' {...props} />
                             <hr className='markdown-hr' />
+                        </div>
+                    ),
+                    h3: ({node, ...props}) => (
+                        <div>
+                            <h3 className='markdown-h3' {...props} />
+                        </div>
+                    ),
+                    ol: ({node, ...props}) => (
+                        <div>
+                            <ol className='markdown-ol' {...props} />
+                        </div>
+                    ),
+                    ul: ({node, ...props}) => (
+                        <div>
+                            <ul className='markdown-ul' {...props} />
                         </div>
                     ),
                     p: ({node, ...props}) => (

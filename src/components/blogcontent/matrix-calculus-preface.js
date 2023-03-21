@@ -79,7 +79,7 @@ function MatrixCalculusPreface() {
                         <div className='blog-article-title'>
 				                    <h1>Matrix Calculus | Preface</h1>
                             <h3>
-                                A series of articles about matrix calculus in the context of machine learning.
+                                A series of articles about matrix calculus and machine learning.
                             </h3>
                         </div>
 

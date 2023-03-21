@@ -4,7 +4,7 @@ Chapter 1: Preliminaries
 The Derivative
 --------------
 
-We should begin the discussion of matrix calculus by revisiting the
+We can begin the discussion of matrix calculus by revisiting the
 definition of a derivative. For many students, the difference quotient
 definition will be familiar. We will show that this is equivalent to a
 defining the derivative as the best linear approximator of the function
@@ -126,7 +126,7 @@ differentiable in $U$ and it\'s derivative is the function
 $\frac{df}{dx}: U \to \mathbb{R}$ that maps points in the domain to the
 scalar value that satisfies the above pointwise condition. Now that we
 have established this alternate definition of the derivative, we are in
-good shape to continue forth with deciphering matrix calculus.
+good shape to continue deciphering matrix calculus.
 
 Partial Derivatives
 -------------------
@@ -147,13 +147,15 @@ $$
     \lim_{h \to 0} \frac{f(\mathbf{a} + h\mathbf{e}_i) - f(\mathbf{a}) - Ah \mathbf{e}_i}{h} = 0
 \end{align*}
 $$
+
 This is equivalent to
 
 $$
 \begin{equation}
-    f(\mathbf{a} + h\mathbf{e}_i = f(\mathbf{a}) + Ah\mathbf{e}_i + o(h)
+    f(\mathbf{a} + h\mathbf{e}_i) = f(\mathbf{a}) + Ah\mathbf{e}_i + o(h)
 \end{equation}
 $$
+
 Here, $\mathbf{e}_i$ is the unit vector in $\mathbb{R}^n$ with zeros in
 all elements except for a $1$ in the $i$\'th element. The value $A$ is
 often denoted the following way:
@@ -163,6 +165,7 @@ $$
     A = \frac{\partial f}{\partial x_i}(\mathbf{a})
 \end{align*}
 $$
+
 and read as the partial derivative of $f$ with respect to $x_i$ at point
 $\mathbf{a}$. The partial derivative will be important for deciphering
 what elements make up the total derivative discussed next chapter.
@@ -181,9 +184,9 @@ space. The mapping $T$ is said to be a linear map if it satisfies the
 following two conditions for any $\mathbf{u}, \mathbf{v} \in V$ and any
 scalar $k \in K$:
 
-1.  Additivity:
+1. Additivity:
     $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$
-2.  Degree 1 Homogeneity: $T(k \mathbf{v}) = kT(\mathbf{v})$
+2. Degree 1 Homogeneity: $T(k \mathbf{v}) = kT(\mathbf{v})$
 
 Another useful property of linear maps is that they can be entirely
 determined by its action on a set of basis vectors for the domain. This

@@ -1,33 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function BlogIndexItem(props){
 	return (
-		<>
-			<li className='index__item'>
-				<figure className='index__item_pic-wrap' data-category={props.label}>
-					<img
-						className='index__item_img'
-						alt='Blog Article Cover Image'
-						src={props.src}
-					/>
-				</figure>
-				<div className='index__item_header'>
-					<h3
-						className='index__item_title'>
-						{props.title}
-					</h3>
-				</div>
-				<div className='index__item_body'>
-					<p className='index__item_text'>
-						{props.summary}
-					</p>
-					<a className='index__item_link'
-					   href={props.path}>
-					    <p>Read More...</p>
-					</a>
-				</div>
-			</li>
-		</>
+		  <>
+			    <li className='index_item'>
+              <div className='index_item_img_wrapper'>
+                  <img
+                      className='index_item_img'
+                      alt={props.alt}
+                      src={props.src}
+                  />
+              </div>
+              
+              <div className='index_item_content'>
+                  <h3 className='index_item_title'>
+                      {props.title}
+                  </h3>
+
+                  <h5>Published: {props.pubdate}</h5>
+                  
+                  <div className='index_item_description'>
+                      <p className='index_item_text'>
+                          {props.text}
+                      </p>
+                      <Link to={props.path}>
+                          [Read More]
+                      </Link>
+                  </div>
+              </div>
+          </li>
+		  </>
 	);
 }
 

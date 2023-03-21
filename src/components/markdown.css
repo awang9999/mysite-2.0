@@ -36,6 +36,22 @@
     margin-top: 2.5rem;
 }
 
+.markdown-h3 {
+    margin-top: 1.5rem;
+}
+
+.markdown-ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 5%;
+}
+
+.markdown-ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 5%;
+}
+
 .markdown-p {
     margin-top: 1rem;
 }
