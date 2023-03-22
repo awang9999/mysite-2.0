@@ -5,6 +5,8 @@ import RemarkMathPlugin from 'remark-math';
 import RehypeKatex from 'rehype-katex';
 import RemarkGfm from 'remark-gfm';
 
+import { Header1, Header2, Header3 } from './Headings';
+
 import '../App.css';
 import 'katex/dist/katex.min.css';
 import './markdown.css';
@@ -28,19 +30,20 @@ function Markdown(props){
                 rehypePlugins={[RehypeKatex]}
                 components={{
                     h1: ({node, ...props}) => (
-                        <div>
-                            <h1 className='markdown-h1' {...props} />
+                        <div className='markdown-h1'>
+                            <Header1 {...props} />
+                            <hr className='markdown-hr' />
                         </div>
                     ),
                     h2: ({node, ...props}) => (
-                        <div>
-                            <h2 className='markdown-h2' {...props} />
+                        <div className='markdown-h2'>
+                            <Header2 {...props} />
                             <hr className='markdown-hr' />
                         </div>
                     ),
                     h3: ({node, ...props}) => (
-                        <div>
-                            <h3 className='markdown-h3' {...props} />
+                        <div className='markdown-h3'>
+                            <Header3 {...props} />
                         </div>
                     ),
                     ol: ({node, ...props}) => (
