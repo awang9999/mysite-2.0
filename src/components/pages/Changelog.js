@@ -25,6 +25,20 @@ function Changelog() {
 				                  <ul>
                               <li>
                                   <p>
+                                      <b>Version 2.2.1 [June 2023]</b>: <br/>
+							                        Several sections have been updated to reflect the latest
+                                      status of my information. The CV has been exchanged for
+                                      an updated version of my resume which I believe is more
+                                      indicative of my experiences now. A bug in the mobile
+                                      view of the blog section has since been resolved. Lastly,
+                                      I have added a reading time indicator on the blog index
+                                      items. Still no new blog articles yet, but I promise those
+                                      are in the works!
+                                  </p>                                  
+                              </li>
+                              
+                              <li>
+                                  <p>
                                       <b>Version 2.2.0 [March 2023]</b>: <br/>
 							                        The blog and 3 articles have been published in this
                                       version! On the technical side of things, I added

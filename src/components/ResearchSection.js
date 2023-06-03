@@ -25,10 +25,10 @@ function ResearchSection() {
       <hr />
 		<div className='research-content'>
 			
-		<img src='images/nn_research.png' alt='ProjectX arXiv paper' />
+		<img src='images/nn_research.png' alt='Plot showing accuracy vs number of models in ensemble' />
         <div className='research-content-item'>
           <h2>Neural Network Training Sensitivity</h2>
-			<h4 className='ital'>Ithaca, NY - Aug 2022 to present</h4>
+			<h4 className='ital'>Ithaca, NY - Aug 2022 to Dec 2022</h4>
 			<h4 >Advisor: Prof. Anil Damle</h4>
           <p>
 			  Motivated by neural network compression, we
@@ -42,8 +42,7 @@ function ResearchSection() {
 			  neural network by studying the variance of the networks.
 			  My work in this area evolved towards exploring whether
 			  the variance from fine-tuning would be enough to
-			  produce a good ensemble model. This research is still
-			  in progress!
+			  produce a good ensemble model.
 			  <br/>
 			  <b>
 				  [<a

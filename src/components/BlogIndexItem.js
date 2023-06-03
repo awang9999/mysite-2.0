@@ -18,7 +18,7 @@ function BlogIndexItem(props){
                       {props.title}
                   </h3>
 
-                  <h5>Published: {props.pubdate}</h5>
+                  <h5>Published: {props.pubdate} | {props.readingtime} min read</h5>
                   
                   <div className='index_item_description'>
                       <p className='index_item_text'>
