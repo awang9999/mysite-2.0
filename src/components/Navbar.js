@@ -24,18 +24,19 @@ function Navbar() {
                 About
               </Link>
             </li>
-			  
+
+              <li className='nav-item'>
+                  <Link to='/#experience' className='nav-links' onClick={closeMobileMenu}>
+                      Experience
+                  </Link>
+              </li>
+              
             <li className='nav-item'>
               <Link to='/#research' className='nav-links' onClick={closeMobileMenu}>
                 Research
               </Link>
             </li>
 			  
-            <li className='nav-item'>
-              <Link to='/#experience' className='nav-links' onClick={closeMobileMenu}>
-                Experience
-              </Link>
-            </li>
             <li className='nav-item'>
               <Link to='/#projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
@@ -47,8 +48,8 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-links' target='_blank' rel='noreferrer' href={process.env.PUBLIC_URL + '/files/alexander_wang_cv.pdf'} onClick={closeMobileMenu}>
-                CV
+              <a className='nav-links' target='_blank' rel='noreferrer' href={process.env.PUBLIC_URL + '/files/alexander_wang_resume.pdf'} onClick={closeMobileMenu}>
+                Resume
               </a>
             </li>
           </ul>

@@ -13,8 +13,8 @@ function Home() {
     <>
 		<HeroSection />
 		<AboutSection />
-		<ResearchSection />
 		<ExperienceSection />
+		<ResearchSection />
 		<ProjectsSection />
     </>
   );
