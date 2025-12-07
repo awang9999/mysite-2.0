@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import RemarkMathPlugin from 'remark-math';
 import RehypeKatex from 'rehype-katex';
@@ -11,16 +11,15 @@ import '../App.css';
 import 'katex/dist/katex.min.css';
 import './markdown.css';
 
-function Markdown(props){
-
-    const [content, setContent] = useState("");
+function Markdown(props) {
+    const [content, setContent] = useState('');
 
     useEffect(() => {
         fetch(props.src)
             .then((res) => res.text())
             .then((text) => setContent(text));
     }, [props.src]);
-    
+
     return (
         <>
             <ReactMarkdown
@@ -29,42 +28,42 @@ function Markdown(props){
                 remarkPlugins={[RemarkMathPlugin, RemarkGfm]}
                 rehypePlugins={[RehypeKatex]}
                 components={{
-                    h1: ({node, ...props}) => (
-                        <div className='markdown-h1'>
+                    h1: ({ node, ...props }) => (
+                        <div className="markdown-h1">
                             <Header1 {...props} />
-                            <hr className='markdown-hr' />
+                            <hr className="markdown-hr" />
                         </div>
                     ),
-                    h2: ({node, ...props}) => (
-                        <div className='markdown-h2'>
+                    h2: ({ node, ...props }) => (
+                        <div className="markdown-h2">
                             <Header2 {...props} />
-                            <hr className='markdown-hr' />
+                            <hr className="markdown-hr" />
                         </div>
                     ),
-                    h3: ({node, ...props}) => (
-                        <div className='markdown-h3'>
+                    h3: ({ node, ...props }) => (
+                        <div className="markdown-h3">
                             <Header3 {...props} />
                         </div>
                     ),
-                    ol: ({node, ...props}) => (
+                    ol: ({ node, ...props }) => (
                         <div>
-                            <ol className='markdown-ol' {...props} />
+                            <ol className="markdown-ol" {...props} />
                         </div>
                     ),
-                    ul: ({node, ...props}) => (
+                    ul: ({ node, ...props }) => (
                         <div>
-                            <ul className='markdown-ul' {...props} />
+                            <ul className="markdown-ul" {...props} />
                         </div>
                     ),
-                    p: ({node, ...props}) => (
+                    p: ({ node, ...props }) => (
                         <div>
-                            <p className='markdown-p' {...props} />
+                            <p className="markdown-p" {...props} />
                         </div>
-                    )
+                    ),
                 }}
             />
         </>
-    )
+    );
 }
 
 export default Markdown;

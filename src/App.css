@@ -1,61 +1,60 @@
 :root {
-	/* Color scheme credit goes to NordTheme */
-	/* https://www.nordtheme.com/docs/colors-and-palettes */
-	
-	/* Darks */
-	--nord0: #2e3440;
-	--nord1: #3b4252;
-	--nord2: #424c5e;
-	--nord3: #4c566a;
-	/* Lights */
-	--nord4: #d8dee0;
-	--nord5: #e5e9f0;
-	--nord6: #eceff4;
-	/* Blues */
-	--nord7: #8fbcbb;
-	--nord8: #88c0d0;
-	--nord9: #81a1c1;
-	--nord10: #5e81ac;
-	/* Colors */
-	--nord11: #bf616a;
-	--nord12: #d08770;
-	--nord13: #ebcb8b;
-	--nord14: #a3be8c;
-	--nord15: #b48ead;
+    /* Color scheme credit goes to NordTheme */
+    /* https://www.nordtheme.com/docs/colors-and-palettes */
 
-	/* Webpage color scheme definitions */
-	--main-bg-color: var(--nord6);
-	--main-fg-color: var(--nord0);
-	--main-hr-color: var(--nord8);
+    /* Darks */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #424c5e;
+    --nord3: #4c566a;
+    /* Lights */
+    --nord4: #d8dee0;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    /* Blues */
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    /* Colors */
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
 
-	/* Hero Section */
-	--hero-bg-color: var(--nord0);
-	--hero-fg-color: var(--nord6);
-	--hero-chevron-color: var(--nord3);
-	
-	/* Navbar Specific */
-	--navbar-height: 80px;
-	
-	--navbar-bg-color: var(--nord0);
-	--navbar-fg-color: var(--nord4);
-	--navbar-highlight-color: var(--nord6);
+    /* Webpage color scheme definitions */
+    --main-bg-color: var(--nord6);
+    --main-fg-color: var(--nord0);
+    --main-hr-color: var(--nord8);
 
-	/* Footer Specific */
-	--footer-bg-color: var(--nord0);
-	--footer-fg-color: var(--nord4);
-	--footer-highlight-color: var(--nord6);
+    /* Hero Section */
+    --hero-bg-color: var(--nord0);
+    --hero-fg-color: var(--nord6);
+    --hero-chevron-color: var(--nord3);
 
-  /* Extra Colors */
-  --subtitle-color: #828586;
+    /* Navbar Specific */
+    --navbar-height: 80px;
+
+    --navbar-bg-color: var(--nord0);
+    --navbar-fg-color: var(--nord4);
+    --navbar-highlight-color: var(--nord6);
+
+    /* Footer Specific */
+    --footer-bg-color: var(--nord0);
+    --footer-fg-color: var(--nord4);
+    --footer-highlight-color: var(--nord6);
+
+    /* Extra Colors */
+    --subtitle-color: #828586;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .raleway {
     font-family: 'Raleway', sans-serif;
 }
-

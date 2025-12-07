@@ -1,15 +1,19 @@
 .markdown {
     color: var(--main-fg-color);
     font-size: 1.5rem;
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family:
+        Georgia,
+        Times,
+        Times New Roman,
+        serif;
 }
 
 .math-display {
-	  background-color: var(--nord4);
+    background-color: var(--nord4);
     padding: 1rem;
-	  border-radius: 1rem;
-	  margin-top: 2rem;
-	  margin-bottom: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 1.5rem;
     font-family: 'Noto Sans Math', sans-serif;
 }
@@ -68,7 +72,7 @@
     .markdown-h2 {
         font-size: 1.5rem;
     }
-    
+
     .math-display {
         font-size: 1.2rem;
     }
@@ -86,7 +90,7 @@
     .markdown-h1 {
         font-size: 1.5rem;
     }
-    
+
     .markdown-h2 {
         font-size: 1.2rem;
     }

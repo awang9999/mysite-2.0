@@ -8,11 +8,10 @@
     align-items: center;
 }
 
-.changelog-container > h1{
+.changelog-container > h1 {
     padding-top: 100px;
     font-size: 4rem;
 }
-
 
 .changelog-container > hr {
     margin: 10px auto;
@@ -37,16 +36,16 @@
     font-size: 1.4rem;
 }
 
-.changelog-notes{
-	width: 100%;
-	margin-top: 20px;
-	padding-left: 20px;
+.changelog-notes {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
     align-items: left;
     justify-items: left;
 }
 
-.changelog-notes{
-	font-size: 1.2rem;
+.changelog-notes {
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1120px) {

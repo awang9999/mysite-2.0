@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../../App.css';
-import './blogcontent.css'
+import './blogcontent.css';
 
 import ScrollToTop from '../ScrollToTop';
 
@@ -9,8 +9,7 @@ import Markdown from '../Markdown.js';
 import MatrixCalculusTOC from './matrix-calculus-toc.js';
 
 function MatrixCalculusPart1() {
-    
-    const articleSource = "blog/matrix-calculus-chapter2.md";
+    const articleSource = 'blog/matrix-calculus-chapter2.md';
 
     // React.useEffect(() => {
 
@@ -19,14 +18,13 @@ function MatrixCalculusPart1() {
     //     var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ' +
     //         'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ' +
     //         'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
-  
+
     //     letters = letters.split('');
-    
+
     //     // Setting up the columns
     //     var fontSize = 15;
     //     var columns;
 
-        
     //     // Setting up the drops
     //     var drops = [];
 
@@ -37,7 +35,7 @@ function MatrixCalculusPart1() {
 
     //         for (var i = 0; i < drops.length; i++) {
     //             var text = letters[Math.floor(Math.random() * letters.length)];
-                
+
     //             colorText(text, i * fontSize, drops[i] * fontSize, '#0f0', fontSize + "px");
 
     //             drops[i]++;
@@ -53,7 +51,7 @@ function MatrixCalculusPart1() {
     //         ctx.fillStyle = fillColor;
     //         ctx.fillText(showWords, textX, textY);
     //     }
-        
+
     //     canvas = document.querySelector('canvas');
     //     ctx = canvas.getContext('2d');
 
@@ -68,30 +66,34 @@ function MatrixCalculusPart1() {
     //     }
 
     //     setInterval(draw, 70);
-        
+
     // }, []);
-    
+
     return (
         <>
             <ScrollToTop>
-                <div className='blog-article-container raleway'>
-			              <div className='blog-article-content'>
-                        <div className='blog-article-title'>
-				                    <h1>Matrix Calculus | Chapter 2: The Total Derivative</h1>
+                <div className="blog-article-container raleway">
+                    <div className="blog-article-content">
+                        <div className="blog-article-title">
+                            <h1>Matrix Calculus | Chapter 2: The Total Derivative</h1>
                             <h3>
-                                In this chapter we develop the derivative for functions of several variables.
+                                In this chapter we develop the derivative for functions of several
+                                variables.
                             </h3>
                         </div>
 
                         <hr />
 
-                        <div className='blog-article-hero'>
-                            <img src='./images/matrix-background.jpg' alt='matrix text decoration'/>
+                        <div className="blog-article-hero">
+                            <img
+                                src="./images/matrix-background.jpg"
+                                alt="matrix text decoration"
+                            />
                         </div>
 
                         <MatrixCalculusTOC />
-                        
-				                <div className='blog-article' id='blog-article'>
+
+                        <div className="blog-article" id="blog-article">
                             <Markdown src={articleSource} />
                         </div>
                     </div>

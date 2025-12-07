@@ -55,7 +55,6 @@ button.anchor {
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
-
 .experience-content-item > p {
     font-size: 1.1rem;
     margin-bottom: 20px;
@@ -67,7 +66,9 @@ button.anchor {
     align-items: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     line-height: 1.2;
 }
 

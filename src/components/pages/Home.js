@@ -9,15 +9,15 @@ import ProjectsSection from '../ProjectsSection';
 import '../../App.css';
 
 function Home() {
-  return (
-    <>
-		<HeroSection />
-		<AboutSection />
-		<ExperienceSection />
-		<ResearchSection />
-		<ProjectsSection />
-    </>
-  );
+    return (
+        <>
+            <HeroSection />
+            <AboutSection />
+            <ExperienceSection />
+            <ResearchSection />
+            <ProjectsSection />
+        </>
+    );
 }
 
 export default Home;
